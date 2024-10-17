@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="header">
+ 
+
+    <div class="container">
+      <nav>
+        <img src="1.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <div class="content">
+          <p>Front - <span>End - Developers</span></p>
+        <h1>Hi, i am <span>Hammad Saeed </span><br>from Pakistan</h1>
+        </div>
+        
+        <img src="img2 vjite.png" alt="">
+      </div>
+    </div>
+
+  </div>
+
+<!--                         about section                   -->
+  <div id="about">
+    <div class="container">
+      <div class="roo">
+        <div class="about-col-1">
+          <img src="car.jpeg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I'm a motivated and reliable team player who adapts well to challenges. I work effectively both in teams and individually, and I excel in high-pressure environments, demonstrating calming behavior through empathy. I am seeking a front-end developer position to leverage my technical skills and experience.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-content active-skills" id="skills">
+            <ul>
+              <li><span>HTML , CSS & JavaScript</span><br> Core web development languages for creating and styling web pages.</li>
+              <li><span>Bootstrap & Tailwindcss (CSS Framework)</span><br> A framework for building responsive and mobile-first websites</li>
+              <li><span>Understanding of C++ and Python</span><br> Basic knowledge of these versatile programming languages</li>
+              <li><span>HTML , CSS , JavaScript</span><br> Core web development languages for creating and styling web pages.</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="Experience">
+            <ul>
+              <li><span>Home Tutor (Mathematics Specialist)</span><br> Duration: 6 years <br>•	Responsibilities: <br>Provided expert tutoring in mathematics to students, focusing on core concepts, problem-solving skills, and exam preparation.</li>
+              <li><span>Marketing at Mobile Accessories</span><br> Duration: 3 years <br>•	Responsibilities: <br>Spearheaded marketing initiatives for a range of mobile accessories, including strategy development, campaign execution, and sales management. Utilized market analysis to identify customer preferences and trends, contributing to increased product visibility and sales growth</li>
+              <li><span>Order Taker at Pizza Hut</span><br> Duration: 8 Months <br>•	Responsibilities: <br>Managed customer orders efficiently, ensuring accuracy and timely delivery of service. Handled
+                customer inquiries, complaints, and special requests with professionalism and courtesy, contributing to a positive dining experience.
+                </li>
+            </ul>
+          </div>
+          <div class="tab-content" id="Education">
+            <ul>
+              <li><span>Bachelor of Science in Computer Science (BSCS)</span><br> Riphah International University<br> CGPA:3.1/4</li>
+              <li><span>Internediate (DAE Civil) </span><br> Imperial Institute of Technologies<br> Marks: 2760/3500</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col colb-1">
+          <div class="progress"      role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped" style="width: 70%">70% HTML</div>
+          </div>
+          <div class="progress"    role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-success" style="width: 65%">65% CSS</div>
+          </div>
+          <div class="progress"   role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-info" style="width: 50%">50% Javascripte</div>
+          </div>
+          <div class="progress "    role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-warning" style="width: 75%">75% Bootstrap</div>
+          </div>
+          <div class="progress"    role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-danger" style="width: 40%">40% React</div>
+          </div>
+        </div>
+        <div class="col">
+          <img src="skilss.png"  alt="">
+        </div>
+        
+      </div>
+    </div>
+   
+  </div>
+
+
+  <!-- --------------------------- services------------------- -->
+
+
+
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>web Design</h2>
+          <p>Web design is the process of creating the visual layout and user interface of websites. It focuses on aesthetics, usability, and ensuring a seamless experience across devices. Key elements include color schemes, typography, and responsive design.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>UI/UX design focuses on enhancing user interaction and experience with digital products. UI (User Interface) design deals with the look and layout, ensuring visually appealing and intuitive interfaces. UX (User Experience) design focuses on the overall user journey, making products easy, efficient, and enjoyable to use.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>
+            App design involves creating the visual layout and user flow of mobile applications. It combines UI (User Interface) design for attractive, easy-to-navigate screens and UX (User Experience) design for seamless, intuitive interactions. The goal is to provide users with a functional and enjoyable experience across different devices.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- --------------------------- portfolio-------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">Make 100 + Mini Project but hear are Some Example</h1>
+      <div class="Work-list">
+        <div class="Work">
+          <img src="color.jpg" alt="">
+          <div class="layer">
+            <h3>Gradient Background generator</h3>
+            
+            <a href="https://hammaddev-19739.github.io/Color/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="Work">
+          <img src="Time.jpg" alt="">
+          <div class="layer">
+            <h3>Timer</h3>
+            <p></p>
+            <a href="https://hammaddev-19739.github.io/timer/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="Work">
+          <img src="todo.jpg" alt="">
+          <div class="layer">
+            <h3>Todo List</h3>
+            <p></p>
+            <a href="https://hammaddev-19739.github.io/Todo/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+
+    </div>
+  </div>
+
+
+<!-- ------------------------------------------ contact------------------------ -->
+
+<div id="contact" class="contact-1">
+  <div class="container">
+    <div class="roo">
+      <div class="contact-left contact-left-2">
+        <h1 class="sub-title sub-title-2">Contact Me</h1>
+        <div class="right-2">
+          <i class="fa-solid fa-paper-plane"></i><p>hs339502@gmail.com</p>
+          <i class="fa-solid fa-phone"></i><p>03080680456</p>
+        </div>
+       
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="Hammad_Saeed_CV AFTER.pdf" download  class="btn btn2">Its My CV</a>
+       </div>
+      <div class="contact-right">
+        <form >
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your E-mail" required>
+<textarea name="message" rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+
+        </form>
+       </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
